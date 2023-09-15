@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* 
+.display {
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 5px;
+}
+
+.row5 {
+    justify-content: flex-end;
+} */
