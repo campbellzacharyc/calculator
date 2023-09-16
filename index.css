@@ -7,6 +7,11 @@ body {
     height: 100vh;
 }
 
+.calculator {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
 .btn {
     height: 75px;
     width: 75px;
