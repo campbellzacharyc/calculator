@@ -7,20 +7,76 @@ body {
     height: 100vh;
 }
 
-
-/* 
-.display {
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+.btn {
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
 }
 
-button {
-    padding: 5px;
+.number {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
 }
 
-.row5 {
+.number:hover {
+    background-color: palegreen;
+}
+
+.operator {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.operator:hover {
+    background-color: paleturquoise;
+}
+
+.decimal {
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.decimal:hover {
+    background-color: plum;
+}
+
+.equal {
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+
+.equal:hover {
+    background-color: plum;
+}
+
+.clear {
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.screen {
+    width: 300px;
+    border: 1px solid salmon;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-} */
+    align-items: flex-end;
+}
+
+.previous {
+    font-size: 20px;
+}
+
+.current {
+    font-size: 30px;
+}
